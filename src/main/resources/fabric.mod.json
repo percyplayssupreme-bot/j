@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "nightrix",
+  "version": "1.2.11+1.21.11",
+  "name": "Nightrix",
+  "description": "Nightrix client",
+  "authors": [
+    "RK_01"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/nightrix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.lvstrng.venum.Main"
+    ]
+  },
+  "mixins": [
+    "client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "~1.21.11"
+  },
+  "recommends": {
+    "sodium": "*"
+  },
+  "conflicts": {
+    "slight-gui-modifications": "*",
+    "vulkanmod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/dCzT9XHEWu"
+      }
+    }
+  }
+}
